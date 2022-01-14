@@ -10,7 +10,9 @@ namespace SafeDelivery.Controllers
     {
         public ActionResult Index()
         {
+
             ViewBag.Message = "Deneme";
+
             return View();
         }
 
